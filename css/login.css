@@ -1,0 +1,46 @@
+#login{
+    background-color: #4DA1A9;
+    color: #F6F4F0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 200px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#login h1{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;    
+}
+#remember{
+    display: flex;
+    margin-bottom: 30px;
+}
+#remember label{
+    margin-right: 80px;
+}
+#username,#password,#button{
+    height: 30px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+#password{
+    margin-bottom: 10px;
+}
+#button{
+    text-transform: uppercase;
+    background-color: #F6F4F0;;
+    height: 40px;
+}
+#login p{
+    text-align: center;
+}

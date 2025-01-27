@@ -1,0 +1,65 @@
+header {
+    background-color: #2E5077;
+    color: #F6F4F0; 
+    padding: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-size: 30px; 
+}
+
+header nav ul {
+    list-style: none; 
+    display: flex; 
+    gap: 45px;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none; 
+    color: #F6F4F0; 
+}
+header nav a img{
+    height: 70px;
+}
+.logo img{
+    height: 100px; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-small{
+    display: none;
+}
+@media only screen and (max-width:480px) {
+    header{
+      flex-direction: column;
+      width:100%;
+    }
+    header nav ul{
+      flex-direction: column;
+    }
+}
+@media only screen and (max-width:1024px) {
+  header{
+    flex-direction: column;
+    width:100%;
+  }
+  header nav ul{
+    flex-direction: column;
+  }
+} 
+/* <div>320px — 480px: Mobile devices</div>
+    <div>481px — 768px: iPads, Tablets</div>
+    <div>769px — 1024px: Small screens, laptops</div>
+    <div>1025px — 1200px: Desktops, large screens</div>
+    <div>1201px and more — Extra large screens, TV</div> */ 
+
+    /* Media query for iPhones (portrait and landscape modes) */

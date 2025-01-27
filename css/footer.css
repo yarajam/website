@@ -1,0 +1,88 @@
+footer {
+    display: flex; 
+    justify-content: space-between;
+    background-color: #2E5077; 
+    color: #F6F4F0;
+    padding: 20px; 
+}
+
+#feedback {
+    width: 450px;
+}
+
+#feedback #title{
+    font-weight: bold;
+    margin-bottom: 10px; 
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+}
+
+#feedback form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+#feedback input {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#feedback button {
+    background-color: #4DA1A9; 
+    color: #F6F4F0;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer; 
+    text-transform: uppercase;
+    border: none;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 10px;
+}
+
+#socials p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#socials div {
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px; 
+}
+
+#socials box-icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+#rights {
+    text-align: left;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:480px) {
+    footer{
+        flex-direction: column;
+        width: 100%;
+    }
+    #feedback{
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    footer{
+        flex-direction: column;
+        width: 100%;
+    }
+}
